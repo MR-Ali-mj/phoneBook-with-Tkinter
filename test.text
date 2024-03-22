@@ -1,0 +1,30 @@
+
+        self.address = Label(master ,text='do you like add address for your contact ? yes / no ',bg='whitesmoke')
+        self.address.place(x=90,y=180)
+
+        self.address_ent = Entry(master)
+        self.address_ent.place(x=90,y=200)
+
+        self.sumbit = Button(master,text='Sumbit',bg='whitesmoke',command=Sumbit)
+        self.sumbit.place(x=120,y=220)
+        
+
+        if self.address_ent == 'yes':
+
+            self.city = Label(master,text='city :',bg='whitesmoke')
+            self.city.place(x=90,y=220)
+
+            self.city_ent = Entry(master)
+            self.city_ent.place(x=120,y=210)
+
+            self.street = Label(master,text='street :',bg='whitesmoke')
+            self.street.place(x=90,y=240)
+
+            self.street_ent = Entry(master)
+            self.street_ent.place(x=120,y=240)
+
+            self.zip_code = Label(master,text='zip_code :',bg='whitesmoke')
+            self.zip_code.place(x=90,y=260)
+
+            self.zip_code_ent = Entry(master)
+            self.zip_code_ent.place(x=120,y=260)
