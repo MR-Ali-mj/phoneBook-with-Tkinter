@@ -28,3 +28,14 @@
 
             self.zip_code_ent = Entry(master)
             self.zip_code_ent.place(x=120,y=260)
+
+
+if up == '1':
+                root2 = Tk()
+                root2.title('update')
+                root2.geometry('400x400')
+                root2.resizable(False,False)
+                root2.config(background='whitesmoke')
+
+                
+            elif up == '2':
